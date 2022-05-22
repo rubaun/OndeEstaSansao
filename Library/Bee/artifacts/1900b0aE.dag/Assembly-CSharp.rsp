@@ -368,8 +368,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Director.cs"
+"Assets/Scripts/Pontuacao.cs"
 "Assets/Scripts/Sansao.cs"
 "Assets/Scripts/Tela_inicial.cs"
+"Assets/Scripts/Timer.cs"
+"Assets/Scripts/VerificaClique.cs"
 -langversion:9.0
 
 /deterministic

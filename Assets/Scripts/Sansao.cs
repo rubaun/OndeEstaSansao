@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Sansao : MonoBehaviour
 {
     public bool cliquei;
     public GameObject txtAchei;
     private Vector3 posicao;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -29,15 +29,22 @@ public class Sansao : MonoBehaviour
             if(hit.collider != null)
             {
                 Debug.Log(hit.collider.name);
-                cliquei = true;
+                Debug.Log("cliquei:"+cliquei);
+                SetClick();
             }
                   
-            //if(transform.position
-            //    cliquei = true;
         }
 
-        if(cliquei==true){
-            txtAchei.SetActive(true); 
-        }
     }
+
+    public void SetClick()
+    {
+        cliquei = true;
+    }
+
+    public void ResetClick()
+    {
+        cliquei = false;
+    }
+
 }
