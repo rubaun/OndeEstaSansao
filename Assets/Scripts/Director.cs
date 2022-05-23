@@ -15,6 +15,7 @@ public class Director : MonoBehaviour
     public GameObject textoTempo;
     public GameObject cenario1;
     public GameObject cenario2;
+    public GameObject cenario3;
 
 
 
@@ -26,6 +27,7 @@ public class Director : MonoBehaviour
         acabouTempo = false;
         cenario1.SetActive(true);
         cenario2.SetActive(false);
+        cenario3.SetActive(false);
         this.telaInicial = GameObject.FindObjectOfType<Tela_inicial>();
         this.timerCenario = GameObject.FindObjectOfType<Timer>();
         this.sansao = GameObject.FindObjectOfType<Sansao>();
@@ -62,6 +64,7 @@ public class Director : MonoBehaviour
         cenarioAtual = 1;
         cenario1.SetActive(true);
         cenario2.SetActive(false);
+        cenario3.SetActive(false);
         textoTempo.SetActive(false);
         sansao.ResetClick();
         timerCenario.StopTime();
@@ -98,7 +101,12 @@ public class Director : MonoBehaviour
             else if(cenarioAtual == 2)
             {
                 cenario2.SetActive(false);
-                Debug.Log("Ganhou");
+                cenario3.SetActive(true);
+                textoAchei.SetActive(false);
+                timerCenario.RestartTime();
+                timerCenario.StartTime();
+                sansao.ResetClick();
+                cenarioAtual = 3;
             }
         }
     }
