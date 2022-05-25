@@ -1,36 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Director : MonoBehaviour
 {
     
-    private Tela_inicial telaInicial;
     private Timer timerCenario;
     private Sansao sansao;
     private int cenarioAtual;
     private bool verificaAchou;
     private bool acabouTempo;
+    private string nomeCena;
     public GameObject textoAchei;
     public GameObject textoTempo;
-    public GameObject cenario1;
-    public GameObject cenario2;
-    public GameObject cenario3;
 
 
+    private void Awake() {
+       //DontDestroyOnLoad(this);
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        cenarioAtual = 1;
         verificaAchou = false;
         acabouTempo = false;
-        cenario1.SetActive(true);
-        cenario2.SetActive(false);
-        cenario3.SetActive(false);
-        this.telaInicial = GameObject.FindObjectOfType<Tela_inicial>();
         this.timerCenario = GameObject.FindObjectOfType<Timer>();
         this.sansao = GameObject.FindObjectOfType<Sansao>();
+        nomeCena = SceneManager.GetActiveScene().name;
+
     }
 
     // Update is called once per frame
@@ -38,14 +36,13 @@ public class Director : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            telaInicial.EscondeTelaInicial();
             timerCenario.StartTime();
             //Debug.Log("esconde");
         }
 
         if(verificaAchou && Input.GetMouseButtonDown(0))
         {
-            VerificaProximaFase(cenarioAtual);
+            VerificaProximaFase();
         }
 
         if(acabouTempo && Input.GetMouseButtonDown(0))
@@ -61,16 +58,13 @@ public class Director : MonoBehaviour
     void ReiniciaJogo()
     {
         verificaAchou = false;
-        cenarioAtual = 1;
-        cenario1.SetActive(true);
-        cenario2.SetActive(false);
-        cenario3.SetActive(false);
         textoTempo.SetActive(false);
         sansao.ResetClick();
         timerCenario.StopTime();
         timerCenario.RestartTime();
-        telaInicial.MostraTelaInicial();
         acabouTempo = false;
+        SceneManager.LoadScene("CenarioMenu");
+        
     }
 
     void VerificaCliqueAchou()
@@ -83,31 +77,19 @@ public class Director : MonoBehaviour
         }
     }
 
-    void VerificaProximaFase(int cenarioAtual)
+    void VerificaProximaFase()
     {
-        if(verificaAchou)
+        if(verificaAchou && nomeCena == "Cenario1")
+        {          
+            SceneManager.LoadScene("Cenario2");
+        }
+        else if(verificaAchou && nomeCena == "Cenario2")
         {
-            if(cenarioAtual == 1)
-            {
-                verificaAchou = false;
-                cenario1.SetActive(false);
-                cenario2.SetActive(true);
-                textoAchei.SetActive(false);
-                timerCenario.RestartTime();
-                timerCenario.StartTime();
-                sansao.ResetClick();
-                cenarioAtual = 2;
-            }
-            else if(cenarioAtual == 2)
-            {
-                cenario2.SetActive(false);
-                cenario3.SetActive(true);
-                textoAchei.SetActive(false);
-                timerCenario.RestartTime();
-                timerCenario.StartTime();
-                sansao.ResetClick();
-                cenarioAtual = 3;
-            }
+            SceneManager.LoadScene("Cenario3");
+        }
+        else if(verificaAchou && nomeCena == "Cenario3")
+        {
+            SceneManager.LoadScene("CenarioMenu");
         }
     }
 

@@ -6,7 +6,10 @@ public class Sansao : MonoBehaviour
 {
     public bool cliquei;
     public GameObject txtAchei;
+    public string nome;
+    public string sansaoClicado;
     private Vector3 posicao;
+
     
 
     // Start is called before the first frame update
@@ -30,6 +33,7 @@ public class Sansao : MonoBehaviour
             {
                 Debug.Log(hit.collider.name);
                 Debug.Log("cliquei:"+cliquei);
+                sansaoClicado = hit.collider.name;
                 SetClick();
             }
                   

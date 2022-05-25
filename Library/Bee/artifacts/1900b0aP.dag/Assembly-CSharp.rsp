@@ -315,6 +315,7 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/CenarioMenu.cs"
 "Assets/Scripts/Director.cs"
 "Assets/Scripts/Pontuacao.cs"
 "Assets/Scripts/Sansao.cs"
