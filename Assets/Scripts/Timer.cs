@@ -7,7 +7,7 @@ public class Timer : MonoBehaviour
 {
     public float timeRemaining;
     public float timeInitial;
-    private bool timeIsRunning = false;
+    public bool timeIsRunning = false;
     public Text timeText;
     //private string timeText;
     
@@ -62,5 +62,7 @@ public class Timer : MonoBehaviour
     {
         timeIsRunning = true;
     }
+
+
 
 }

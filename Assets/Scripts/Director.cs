@@ -8,6 +8,8 @@ public class Director : MonoBehaviour
     
     private Timer timerCenario;
     private Sansao sansao;
+    private AudioSource audioFundo;
+    private Audio objetoAudio;
     private int cenarioAtual;
     private bool verificaAchou;
     private bool acabouTempo;
@@ -28,6 +30,8 @@ public class Director : MonoBehaviour
         this.timerCenario = GameObject.FindObjectOfType<Timer>();
         this.sansao = GameObject.FindObjectOfType<Sansao>();
         nomeCena = SceneManager.GetActiveScene().name;
+        objetoAudio = GameObject.FindObjectOfType<Audio>();
+        audioFundo = GameObject.FindObjectOfType<Audio>().gameObject.GetComponent<AudioSource>();
 
     }
 
@@ -53,6 +57,10 @@ public class Director : MonoBehaviour
         VerificaTempo();
 
         VerificaCliqueAchou();
+
+        if(Input.GetKeyDown(KeyCode.Escape)){
+            Application.Quit();
+        }
     }
 
     void ReiniciaJogo()
@@ -89,6 +97,10 @@ public class Director : MonoBehaviour
         }
         else if(verificaAchou && nomeCena == "Cenario3")
         {
+            SceneManager.LoadScene("CenarioFinal");
+        }
+        else if(verificaAchou && nomeCena == "CenarioFinal")
+        {
             SceneManager.LoadScene("CenarioMenu");
         }
     }
@@ -99,6 +111,11 @@ public class Director : MonoBehaviour
         {
             textoTempo.SetActive(true);
             acabouTempo = true;
+            if(objetoAudio != null)
+            {
+                audioFundo.Stop();
+                objetoAudio.SendMessage("Destruir");
+            }
         }
     }
 }

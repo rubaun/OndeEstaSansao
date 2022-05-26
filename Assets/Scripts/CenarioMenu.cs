@@ -21,5 +21,9 @@ public class CenarioMenu : MonoBehaviour
         {
             SceneManager.LoadScene("Cenario1");
         }
+
+        if(Input.GetKeyDown(KeyCode.Escape)){
+            Application.Quit();
+        }
     }
 }
