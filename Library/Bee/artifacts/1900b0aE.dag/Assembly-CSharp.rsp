@@ -370,6 +370,8 @@
 "Assets/Scripts/Audio.cs"
 "Assets/Scripts/CenarioMenu.cs"
 "Assets/Scripts/Director.cs"
+"Assets/Scripts/PlayAchou.cs"
+"Assets/Scripts/PlayDerrota.cs"
 "Assets/Scripts/Pontos.cs"
 "Assets/Scripts/Pontuacao.cs"
 "Assets/Scripts/Sansao.cs"

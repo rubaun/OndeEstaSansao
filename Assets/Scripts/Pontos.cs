@@ -44,5 +44,6 @@ public class Pontos : MonoBehaviour
     public void Destruir()
     {
         DestroyImmediate(this.gameObject);
+        Debug.Log("Destruido");
     }
 }

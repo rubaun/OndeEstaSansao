@@ -9,6 +9,8 @@ public class Director : MonoBehaviour
     private Timer timerCenario;
     private Sansao sansao;
     private AudioSource audioFundo;
+    private AudioSource tocaSomAchou;
+    private AudioSource tocaSomDerrota;
     private Audio objetoAudio;
     private Pontuacao pontuacao;
     private int cenarioAtual;
@@ -17,6 +19,7 @@ public class Director : MonoBehaviour
     private string nomeCena;
     public GameObject textoAchei;
     public GameObject textoTempo;
+    
 
 
     private void Awake() {
@@ -35,7 +38,8 @@ public class Director : MonoBehaviour
         audioFundo = GameObject.FindObjectOfType<Audio>().gameObject.GetComponent<AudioSource>();
         this.pontuacao = gameObject.GetComponent<Pontuacao>();
         pontuacao.DefineTempoInicial(timerCenario.timeInitial);
-
+        tocaSomAchou = textoAchei.gameObject.GetComponent<AudioSource>();
+        tocaSomDerrota = textoTempo.gameObject.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -62,7 +66,9 @@ public class Director : MonoBehaviour
         VerificaCliqueAchou();
 
         if(Input.GetKeyDown(KeyCode.Escape)){
+            
             Application.Quit();
+            
         }
     }
 
@@ -75,13 +81,15 @@ public class Director : MonoBehaviour
         timerCenario.RestartTime();
         acabouTempo = false;
         SceneManager.LoadScene("CenarioMenu");
-        pontuacao.ZeraPontos();
         
     }
 
     void VerificaCliqueAchou()
     {
-        if(sansao.cliquei==true && timerCenario.timeRemaining > 0){
+        if(sansao.cliquei==true && timerCenario.timeRemaining > 0)
+        {
+            
+            tocaSomAchou.Play();
             textoAchei.SetActive(true);
             timerCenario.StopTime();
             pontuacao.PontuacaoDaFase(timerCenario.timeRemaining);
@@ -120,10 +128,13 @@ public class Director : MonoBehaviour
             acabouTempo = true;
             if(objetoAudio != null)
             {
+                tocaSomDerrota.Play();
                 audioFundo.Stop();
                 objetoAudio.SendMessage("Destruir");
                 pontuacao.ZeraPontos();
+                Debug.Log("Enviando Mensagem para Pontuação");
             }
         }
     }
+
 }

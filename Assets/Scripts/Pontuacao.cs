@@ -61,6 +61,7 @@ public class Pontuacao : MonoBehaviour
     public void ZeraPontos()
     {
         pontos.SendMessage("Destruir");
+        Debug.Log("Enviando Mensagem para Pontos");
     }
 
     public void SetContagem(bool contado)
