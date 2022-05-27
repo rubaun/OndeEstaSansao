@@ -10,6 +10,7 @@ public class Director : MonoBehaviour
     private Sansao sansao;
     private AudioSource audioFundo;
     private Audio objetoAudio;
+    private Pontuacao pontuacao;
     private int cenarioAtual;
     private bool verificaAchou;
     private bool acabouTempo;
@@ -32,6 +33,8 @@ public class Director : MonoBehaviour
         nomeCena = SceneManager.GetActiveScene().name;
         objetoAudio = GameObject.FindObjectOfType<Audio>();
         audioFundo = GameObject.FindObjectOfType<Audio>().gameObject.GetComponent<AudioSource>();
+        this.pontuacao = gameObject.GetComponent<Pontuacao>();
+        pontuacao.DefineTempoInicial(timerCenario.timeInitial);
 
     }
 
@@ -72,6 +75,7 @@ public class Director : MonoBehaviour
         timerCenario.RestartTime();
         acabouTempo = false;
         SceneManager.LoadScene("CenarioMenu");
+        pontuacao.ZeraPontos();
         
     }
 
@@ -80,6 +84,8 @@ public class Director : MonoBehaviour
         if(sansao.cliquei==true && timerCenario.timeRemaining > 0){
             textoAchei.SetActive(true);
             timerCenario.StopTime();
+            pontuacao.PontuacaoDaFase(timerCenario.timeRemaining);
+            pontuacao.SetContagem(true);
             verificaAchou = true;
             Debug.Log("Achou Sansão:"+verificaAchou);
         }
@@ -107,6 +113,7 @@ public class Director : MonoBehaviour
 
     void VerificaTempo()
     {
+        
         if(timerCenario.timeRemaining == 0)
         {
             textoTempo.SetActive(true);
@@ -115,6 +122,7 @@ public class Director : MonoBehaviour
             {
                 audioFundo.Stop();
                 objetoAudio.SendMessage("Destruir");
+                pontuacao.ZeraPontos();
             }
         }
     }

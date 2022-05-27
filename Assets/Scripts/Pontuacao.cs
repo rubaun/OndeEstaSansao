@@ -6,53 +6,65 @@ using UnityEngine.UI;
 public class Pontuacao : MonoBehaviour
 {
     
-    public int pontos;
-    private Timer timer;
     private float tempoInicial;
+    private float tempoRestante;
+    private bool tempoCorrendo;
+    private bool contagemFeita;
     public Text textoPontos;
+    private Pontos pontos;
 
-    private void Awake() 
-    {
-        DontDestroyOnLoad(this);
-    }
     
     // Start is called before the first frame update
     void Start()
     {
-        timer = GameObject.FindObjectOfType<Timer>();
-        pontos = 0;
-        tempoInicial = timer.timeInitial;
+        pontos = GameObject.FindObjectOfType<Pontos>();
+        contagemFeita = false;
+        textoPontos.text = pontos.pontosAcumulados.ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
         
-        if(!timer.timeIsRunning)
+    }
+
+    public void DefineTempoInicial(float tempoInicio)
+    {
+        tempoInicial = tempoInicio;
+    }
+
+    public void DefineTempoRestante(float tempoResta)
+    {
+        tempoRestante = tempoResta;
+    }
+
+    public void DefineTempoCorrendo(bool tempocorre)
+    {
+        tempoCorrendo = tempocorre;
+    }
+
+    public void PontuacaoDaFase(float tempoResta)
+    {
+        if(!contagemFeita)
         {
-            CalculaPontos();
-            SomaPontos(pontos);
+            pontos.CalculaPontos(tempoResta);
+            pontos.SomaPontos();
+            pontos.EncerraContagem();
             if(textoPontos != null)
-            {
-                textoPontos.text = pontos.ToString();
-            }
+                {
+                    textoPontos.text = pontos.pontosAcumulados.ToString();
+                }
         }
 
-        /* if(!timer.timeIsRunning && timer.timeRemaining == 0)
-        {
-            pontos = 0;
-        } */
-
-        
     }
 
-    public void SomaPontos(int pontosNovos)
+    public void ZeraPontos()
     {
-        pontos += pontosNovos;
+        pontos.SendMessage("Destruir");
     }
 
-    public void CalculaPontos()
+    public void SetContagem(bool contado)
     {
-        pontos = 100 * Mathf.FloorToInt(timer.timeRemaining);
+        contagemFeita = contado;
     }
 }

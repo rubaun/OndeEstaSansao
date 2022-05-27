@@ -432,6 +432,7 @@ GameObject:
   m_Component:
   - component: {fileID: 667912310}
   - component: {fileID: 667912311}
+  - component: {fileID: 667912312}
   m_Layer: 0
   m_Name: Director
   m_TagString: Untagged
@@ -468,6 +469,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textoAchei: {fileID: 240849160}
   textoTempo: {fileID: 1901159348}
+--- !u!114 &667912312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667912309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ca78a173560ec04d9a3928b04314bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textoPontos: {fileID: 252177402}
 --- !u!1 &707741243
 GameObject:
   m_ObjectHideFlags: 0
