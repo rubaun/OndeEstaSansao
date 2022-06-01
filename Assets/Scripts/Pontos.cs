@@ -33,7 +33,7 @@ public class Pontos : MonoBehaviour
 
     public void CalculaPontos(float tempoRestante)
     {
-        pontosCalculados = 100 * Mathf.FloorToInt(tempoRestante);
+        pontosCalculados = 100 * Mathf.FloorToInt(tempoRestante+1);
     }
 
     public void EncerraContagem()

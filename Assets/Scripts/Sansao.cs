@@ -32,7 +32,7 @@ public class Sansao : MonoBehaviour
             if(hit.collider != null)
             {
                 Debug.Log(hit.collider.name);
-                Debug.Log("cliquei:"+cliquei);
+               // Debug.Log("cliquei:"+cliquei);
                 sansaoClicado = hit.collider.name;
                 SetClick();
             }

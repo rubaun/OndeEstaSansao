@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Director : MonoBehaviour
 {
-    
+
     private Timer timerCenario;
     private Sansao sansao;
     private AudioSource audioFundo;
@@ -19,8 +19,6 @@ public class Director : MonoBehaviour
     private string nomeCena;
     public GameObject textoAchei;
     public GameObject textoTempo;
-    
-
 
     private void Awake() {
        //DontDestroyOnLoad(this);
@@ -68,7 +66,7 @@ public class Director : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Escape)){
             
             Application.Quit();
-            
+
         }
     }
 
@@ -81,21 +79,19 @@ public class Director : MonoBehaviour
         timerCenario.RestartTime();
         acabouTempo = false;
         SceneManager.LoadScene("CenarioMenu");
-        
     }
 
     void VerificaCliqueAchou()
     {
         if(sansao.cliquei==true && timerCenario.timeRemaining > 0)
         {
-            
-            tocaSomAchou.Play();
             textoAchei.SetActive(true);
             timerCenario.StopTime();
             pontuacao.PontuacaoDaFase(timerCenario.timeRemaining);
             pontuacao.SetContagem(true);
             verificaAchou = true;
-            Debug.Log("Achou Sansão:"+verificaAchou);
+            audioFundo.PlayOneShot(tocaSomAchou.clip,0.1f);
+            //Debug.Log("Achou Sansão:"+verificaAchou);
         }
     }
 
@@ -121,7 +117,6 @@ public class Director : MonoBehaviour
 
     void VerificaTempo()
     {
-        
         if(timerCenario.timeRemaining == 0)
         {
             textoTempo.SetActive(true);
@@ -132,7 +127,7 @@ public class Director : MonoBehaviour
                 audioFundo.Stop();
                 objetoAudio.SendMessage("Destruir");
                 pontuacao.ZeraPontos();
-                Debug.Log("Enviando Mensagem para Pontuação");
+                //Debug.Log("Enviando Mensagem para Pontuação");
             }
         }
     }
