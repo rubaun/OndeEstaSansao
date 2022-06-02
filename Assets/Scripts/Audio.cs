@@ -9,9 +9,9 @@ public class Audio : MonoBehaviour
     //private AudioSource audio;
     private Timer timerCenario;
 
-    private void Awake() {
+    /*private void Awake() {
         DontDestroyOnLoad(this);
-    }
+    }*/
     
     // Start is called before the first frame update
     void Start()

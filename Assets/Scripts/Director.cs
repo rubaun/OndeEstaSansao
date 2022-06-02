@@ -32,12 +32,12 @@ public class Director : MonoBehaviour
         this.timerCenario = GameObject.FindObjectOfType<Timer>();
         this.sansao = GameObject.FindObjectOfType<Sansao>();
         nomeCena = SceneManager.GetActiveScene().name;
-        objetoAudio = GameObject.FindObjectOfType<Audio>();
-        audioFundo = GameObject.FindObjectOfType<Audio>().gameObject.GetComponent<AudioSource>();
+        //objetoAudio = GameObject.FindObjectOfType<Audio>();
+        //audioFundo = GameObject.FindObjectOfType<Audio>().gameObject.GetComponent<AudioSource>();
         this.pontuacao = gameObject.GetComponent<Pontuacao>();
         pontuacao.DefineTempoInicial(timerCenario.timeInitial);
-        tocaSomAchou = textoAchei.gameObject.GetComponent<AudioSource>();
-        tocaSomDerrota = textoTempo.gameObject.GetComponent<AudioSource>();
+        //tocaSomAchou = textoAchei.gameObject.GetComponent<AudioSource>();
+        //tocaSomDerrota = textoTempo.gameObject.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -90,7 +90,7 @@ public class Director : MonoBehaviour
             pontuacao.PontuacaoDaFase(timerCenario.timeRemaining);
             pontuacao.SetContagem(true);
             verificaAchou = true;
-            audioFundo.PlayOneShot(tocaSomAchou.clip,0.1f);
+            //audioFundo.PlayOneShot(tocaSomAchou.clip,0.1f);
             //Debug.Log("Achou Sansão:"+verificaAchou);
         }
     }
@@ -106,6 +106,10 @@ public class Director : MonoBehaviour
             SceneManager.LoadScene("Cenario3");
         }
         else if(verificaAchou && nomeCena == "Cenario3")
+        {
+            SceneManager.LoadScene("Cenario4");
+        }
+        else if(verificaAchou && nomeCena == "Cenario4")
         {
             SceneManager.LoadScene("CenarioFinal");
         }
@@ -123,9 +127,9 @@ public class Director : MonoBehaviour
             acabouTempo = true;
             if(objetoAudio != null)
             {
-                tocaSomDerrota.Play();
-                audioFundo.Stop();
-                objetoAudio.SendMessage("Destruir");
+                //tocaSomDerrota.Play();
+                //audioFundo.Stop();
+                //objetoAudio.SendMessage("Destruir");
                 pontuacao.ZeraPontos();
                 //Debug.Log("Enviando Mensagem para Pontuação");
             }

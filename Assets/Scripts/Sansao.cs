@@ -8,13 +8,24 @@ public class Sansao : MonoBehaviour
     public GameObject txtAchei;
     public string nome;
     public string sansaoClicado;
-    private Vector3 posicao;
+    private Vector2 posicao;
+    private Vector2 ramdomPosition;
+    private float xRange;
+    private float yRange;
+    private float xPosition;
+    private float yPosition;
 
     
 
     // Start is called before the first frame update
     void Start()
     {
+        xRange = 3.0f;
+        yRange = 1.0f;
+        xPosition = Random.Range(0 - xRange, 0 + xRange);
+        yPosition = Random.Range(0 - yRange, 0 + yRange);
+        ramdomPosition = new Vector2(xPosition, yPosition);
+        transform.position = ramdomPosition;
         cliquei = false;
         posicao = transform.position;
     }

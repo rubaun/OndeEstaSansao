@@ -261,7 +261,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ad07d3e76024b9543b0f143f55d48449, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5e3b57ec7a97a2e48bc4a61f0287fbfd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -376,6 +376,7 @@ GameObject:
   - component: {fileID: 613797549}
   - component: {fileID: 613797548}
   - component: {fileID: 613797547}
+  - component: {fileID: 613797551}
   m_Layer: 5
   m_Name: Aviso_achou
   m_TagString: Untagged
@@ -609,6 +610,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 613797545}
   m_CullTransparentMesh: 1
+--- !u!95 &613797551
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613797545}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b359d8defc297c14790d7a087a558dfc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &667912309
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,7 +719,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c34b55aff424eb742b59905d2aecf0bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 30
+  timeRemaining: 25
   timeInitial: 0
   timeIsRunning: 0
   timeText: {fileID: 143814154}
@@ -887,6 +908,7 @@ GameObject:
   - component: {fileID: 1256169580}
   - component: {fileID: 1256169579}
   - component: {fileID: 1256169578}
+  - component: {fileID: 1256169582}
   m_Layer: 5
   m_Name: Aviso_tempo
   m_TagString: Untagged
@@ -1122,6 +1144,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256169576}
   m_CullTransparentMesh: 1
+--- !u!95 &1256169582
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256169576}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: da8714520e812b3438f003ee01eed64f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1283885986
 GameObject:
   m_ObjectHideFlags: 0
@@ -1147,8 +1189,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1283885986}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.2439, y: 0.7633, z: -0.059646387}
-  m_LocalScale: {x: 1.8583117, y: 1.4607003, z: 1}
+  m_LocalPosition: {x: -2.3185, y: 0.8451, z: -0.059646387}
+  m_LocalScale: {x: 2.999955, y: 2.1870167, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1603378141}
@@ -1195,7 +1237,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ea03ba35b6d763d4da80486172c9b3ad, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 845f7a43d13af0c4a9d885ea3e4d7dd3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1233,8 +1275,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1439676231}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.652, y: 0.82, z: -0.059646387}
-  m_LocalScale: {x: 0.14129272, y: 0.13943487, z: 0.19153142}
+  m_LocalPosition: {x: -2.379, y: 0.288, z: -0.059646387}
+  m_LocalScale: {x: 0.15649581, y: 0.15397793, z: 0.19153142}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1603378141}
@@ -1383,7 +1425,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 32d5aa0e7a20cca4eaf59d55e3f01d2f, type: 3}
-  m_Color: {r: 0.764151, g: 0.63395697, b: 0.6091581, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
