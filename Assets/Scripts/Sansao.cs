@@ -20,7 +20,7 @@ public class Sansao : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        xRange = 3.0f;
+        xRange = 2.5f;
         yRange = 1.0f;
         xPosition = Random.Range(0 - xRange, 0 + xRange);
         yPosition = Random.Range(0 - yRange, 0 + yRange);

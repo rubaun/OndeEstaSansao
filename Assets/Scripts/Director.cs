@@ -22,6 +22,9 @@ public class Director : MonoBehaviour
 
     private void Awake() {
        //DontDestroyOnLoad(this);
+        audioFundo = this.gameObject.GetComponent<AudioSource>();
+        tocaSomAchou = textoAchei.gameObject.GetComponent<AudioSource>();
+        tocaSomDerrota = textoTempo.gameObject.GetComponent<AudioSource>();
     }
 
     // Start is called before the first frame update
@@ -36,8 +39,7 @@ public class Director : MonoBehaviour
         //audioFundo = GameObject.FindObjectOfType<Audio>().gameObject.GetComponent<AudioSource>();
         this.pontuacao = gameObject.GetComponent<Pontuacao>();
         pontuacao.DefineTempoInicial(timerCenario.timeInitial);
-        //tocaSomAchou = textoAchei.gameObject.GetComponent<AudioSource>();
-        //tocaSomDerrota = textoTempo.gameObject.GetComponent<AudioSource>();
+        
     }
 
     // Update is called once per frame
@@ -111,6 +113,18 @@ public class Director : MonoBehaviour
         }
         else if(verificaAchou && nomeCena == "Cenario4")
         {
+            SceneManager.LoadScene("Cenario5");
+        }
+        else if(verificaAchou && nomeCena == "Cenario5")
+        {
+            SceneManager.LoadScene("Cenario6");
+        }
+        else if(verificaAchou && nomeCena == "Cenario6")
+        {
+            SceneManager.LoadScene("Cenario7");
+        }
+        else if(verificaAchou && nomeCena == "Cenario7")
+        {
             SceneManager.LoadScene("CenarioFinal");
         }
         else if(verificaAchou && nomeCena == "CenarioFinal")
@@ -125,14 +139,17 @@ public class Director : MonoBehaviour
         {
             textoTempo.SetActive(true);
             acabouTempo = true;
-            if(objetoAudio != null)
-            {
+            //if(objetoAudio != null)
+            //{
+                //Destroy(GetComponent<AudioSource>());
+                audioFundo.Stop();
+                tocaSomDerrota.Play();
                 //tocaSomDerrota.Play();
-                //audioFundo.Stop();
+                //DestroyImmediate(GetComponent<AudioSource>());
                 //objetoAudio.SendMessage("Destruir");
-                pontuacao.ZeraPontos();
+                //pontuacao.ZeraPontos();
                 //Debug.Log("Enviando Mensagem para Pontuação");
-            }
+            //}
         }
     }
 
