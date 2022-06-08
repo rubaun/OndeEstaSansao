@@ -23,8 +23,8 @@ public class Director : MonoBehaviour
     private void Awake() {
        //DontDestroyOnLoad(this);
         audioFundo = this.gameObject.GetComponent<AudioSource>();
-        tocaSomAchou = textoAchei.gameObject.GetComponent<AudioSource>();
-        tocaSomDerrota = textoTempo.gameObject.GetComponent<AudioSource>();
+        //tocaSomAchou = textoAchei.gameObject.GetComponent<AudioSource>();
+        //tocaSomDerrota = textoTempo.gameObject.GetComponent<AudioSource>();
     }
 
     // Start is called before the first frame update
@@ -142,8 +142,8 @@ public class Director : MonoBehaviour
             //if(objetoAudio != null)
             //{
                 //Destroy(GetComponent<AudioSource>());
-                audioFundo.Stop();
-                tocaSomDerrota.Play();
+                //audioFundo.Stop();
+                //tocaSomDerrota.Play();
                 //tocaSomDerrota.Play();
                 //DestroyImmediate(GetComponent<AudioSource>());
                 //objetoAudio.SendMessage("Destruir");

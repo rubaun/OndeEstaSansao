@@ -1,431 +1,561 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1654550004165050, "dur":3333, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654550004168398, "dur":3041, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1654550004171479, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1654550004171503, "dur":188, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1654550004171731, "dur":882, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654550004172614, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654550004425075, "dur":141, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654550004425216, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654550004425230, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654550004425233, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654550004425238, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654550004425239, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654550004425244, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654550004425245, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654550004425250, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654550004425262, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654550004425283, "dur":4138, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1654550004172337, "dur":283, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004172622, "dur":4750, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004177384, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1654550004177386, "dur":436, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004177825, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1654550004177827, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004178013, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1654550004178064, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004178108, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1654550004178380, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004178587, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1654550004178655, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004178843, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":1, "ts":1654550004179055, "dur":287, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004179343, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":1, "ts":1654550004179395, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004179458, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004179509, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004179551, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004179600, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004179815, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004179873, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004179924, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004179971, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004180123, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004180190, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004180362, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004180410, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004180456, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004180503, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004180565, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004180608, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004180676, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004180726, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004180931, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004180986, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004181058, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004181098, "dur":269, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004181367, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004181421, "dur":288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004181710, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004181777, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004181840, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004181891, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004181937, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004181983, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004182062, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004182103, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004182216, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004182278, "dur":369, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004182648, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004182707, "dur":391, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004183099, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004183171, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004183225, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004183278, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004183534, "dur":1743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004185278, "dur":469, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004185748, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004185796, "dur":345, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004186142, "dur":968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004187110, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004187225, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004187673, "dur":392, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004188066, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004188167, "dur":286, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004188454, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004188537, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004188785, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004188854, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004188895, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004188968, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004189024, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004189102, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004189180, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004189262, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004189499, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654550004189573, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004189704, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":1, "ts":1654550004189778, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004190623, "dur":3388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":1, "ts":1654550004194065, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets7.assets" }}
-,{ "pid":12345, "tid":1, "ts":1654550004194115, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004194119, "dur":1846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets7.assets" }}
-,{ "pid":12345, "tid":1, "ts":1654550004196033, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets6.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1654550004196203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004196213, "dur":26394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets6.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1654550004222663, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":1, "ts":1654550004222734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004222747, "dur":1497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":1, "ts":1654550004224316, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets3.resource" }}
-,{ "pid":12345, "tid":1, "ts":1654550004224462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004224472, "dur":40104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets3.resource" }}
-,{ "pid":12345, "tid":1, "ts":1654550004264628, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":1, "ts":1654550004264665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004264670, "dur":52693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":1, "ts":1654550004317421, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":1, "ts":1654550004317478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004317487, "dur":4335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":1, "ts":1654550004321892, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":1, "ts":1654550004321959, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004321982, "dur":33927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":1, "ts":1654550004355991, "dur":960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1654550004356952, "dur":429, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004357383, "dur":711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/resources.assets" }}
-,{ "pid":12345, "tid":1, "ts":1654550004358108, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004358135, "dur":1906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/resources.assets" }}
-,{ "pid":12345, "tid":1, "ts":1654550004360105, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/level8" }}
-,{ "pid":12345, "tid":1, "ts":1654550004360175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004360183, "dur":5397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/level8" }}
-,{ "pid":12345, "tid":1, "ts":1654550004365675, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/level7" }}
-,{ "pid":12345, "tid":1, "ts":1654550004365730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004365738, "dur":3959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/level7" }}
-,{ "pid":12345, "tid":1, "ts":1654550004369798, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/level4" }}
-,{ "pid":12345, "tid":1, "ts":1654550004370062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004370102, "dur":17008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/level4" }}
-,{ "pid":12345, "tid":1, "ts":1654550004387218, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1654550004387279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004387287, "dur":22557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1654550004409884, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1654550004410076, "dur":2489, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654550004412569, "dur":12504, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004172415, "dur":218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004172633, "dur":4748, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004177384, "dur":486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1654550004177870, "dur":221, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004178093, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1654550004178316, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004178381, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1654550004178453, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004178516, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1654550004178555, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004178755, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1654550004179054, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004179106, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004179150, "dur":364, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004179515, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004179562, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004179812, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004179869, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004180012, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004180231, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004180290, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004180330, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004180363, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004180425, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004180482, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004180532, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004180658, "dur":790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004181449, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004181516, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004181567, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004181644, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004181697, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004181956, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004182019, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004182181, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004182227, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004182464, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004182505, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004182550, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004182648, "dur":332, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004182981, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004183044, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004183106, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004183150, "dur":273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004183425, "dur":1608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004185034, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004185118, "dur":980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004186098, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004186183, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004186235, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004186291, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004186374, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004186435, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Unity.Burst.Cecil.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004186484, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004186575, "dur":913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004187489, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004187592, "dur":661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004188253, "dur":245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004188499, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004188586, "dur":579, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004189166, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004189251, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004189311, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004189385, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004189510, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004189934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004191423, "dur":2239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654550004193725, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets7.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1654550004193985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004193991, "dur":23606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets7.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1654550004217663, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets4.resource" }}
-,{ "pid":12345, "tid":2, "ts":1654550004217720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004217732, "dur":6671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets4.resource" }}
-,{ "pid":12345, "tid":2, "ts":1654550004224462, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1654550004224583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004224590, "dur":85280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1654550004309916, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":2, "ts":1654550004310084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004310101, "dur":3567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":2, "ts":1654550004313710, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":2, "ts":1654550004313749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004313755, "dur":28129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":2, "ts":1654550004341950, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1654550004342010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654550004342018, "dur":80992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1654550004423190, "dur":1856, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004172385, "dur":240, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004172626, "dur":4754, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004177384, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1654550004177630, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004177689, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1654550004177912, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004177957, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1654550004178194, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004178239, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1654550004178280, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004178417, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1654550004178596, "dur":224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004178821, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":3, "ts":1654550004179073, "dur":324, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004179398, "dur":725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao.exe" }}
-,{ "pid":12345, "tid":3, "ts":1654550004180123, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004180277, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004180324, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004180518, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004180557, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004180769, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004180818, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004180973, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004181024, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004181071, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004181110, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004181262, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004181314, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004181489, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004181534, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004181798, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004181853, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004181912, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004181958, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004182103, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004182163, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004182223, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004182276, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004182425, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004182480, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004182526, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004182641, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004182785, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004183046, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004183205, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004183245, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004183354, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004183425, "dur":1003, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004184433, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004184829, "dur":522, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004185353, "dur":1588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004186941, "dur":245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004187188, "dur":603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004187791, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004187890, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004188010, "dur":543, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004188554, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004188645, "dur":377, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004189022, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004189109, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004189151, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004189235, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004189401, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004189471, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004189567, "dur":550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004190121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004192327, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654550004193725, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets8.assets" }}
-,{ "pid":12345, "tid":3, "ts":1654550004193783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004193791, "dur":2338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets8.assets" }}
-,{ "pid":12345, "tid":3, "ts":1654550004196190, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":3, "ts":1654550004196240, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004196246, "dur":4110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":3, "ts":1654550004200472, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets5.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1654550004200783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004200797, "dur":63533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets5.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1654550004264371, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":3, "ts":1654550004264407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004264413, "dur":4127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":3, "ts":1654550004268583, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1654550004268622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004268629, "dur":74112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1654550004342833, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":3, "ts":1654550004342907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004342915, "dur":28433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":3, "ts":1654550004371412, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/level3" }}
-,{ "pid":12345, "tid":3, "ts":1654550004371470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004371482, "dur":13377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/level3" }}
-,{ "pid":12345, "tid":3, "ts":1654550004385731, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/level2" }}
-,{ "pid":12345, "tid":3, "ts":1654550004385785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004385794, "dur":2688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/level2" }}
-,{ "pid":12345, "tid":3, "ts":1654550004388532, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1654550004388584, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654550004388591, "dur":36392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1654550004425032, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":3, "ts":1654550004425034, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004172436, "dur":202, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004172638, "dur":4743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004177384, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1654550004177467, "dur":504, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004177972, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1654550004178181, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004178394, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1654550004178453, "dur":406, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004178860, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004179090, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004179133, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004179309, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004179444, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":4, "ts":1654550004179599, "dur":231, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004179831, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004179883, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004179929, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004179978, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004180130, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004180176, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004180364, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004180418, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004180634, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004180675, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004180768, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004180831, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004180898, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004180946, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004181186, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004181219, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004181429, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004181482, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004181532, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004181584, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004181662, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004181710, "dur":246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004181957, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004182020, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004182068, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004182113, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004182155, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004182201, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004182426, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004182481, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004182546, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004182647, "dur":633, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004183281, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004183331, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004183392, "dur":1058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004184450, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004184583, "dur":680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004185264, "dur":244, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004185510, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004186010, "dur":383, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004186394, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004186441, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004186553, "dur":533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004187086, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004187261, "dur":735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004187997, "dur":533, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004188532, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004188618, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004188666, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004188737, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004188774, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004188843, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004188891, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004188969, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004189026, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004189110, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004189195, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004189265, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004189429, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654550004189546, "dur":298, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004189845, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets8.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1654550004189915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004190861, "dur":22404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets8.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1654550004213420, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":4, "ts":1654550004213517, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004213534, "dur":4822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":4, "ts":1654550004218406, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1654550004218536, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004218551, "dur":95156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1654550004313765, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1654550004313833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004313838, "dur":42560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1654550004356465, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":4, "ts":1654550004356722, "dur":422, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004357148, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1654550004357214, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004357232, "dur":9026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1654550004366314, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/level6" }}
-,{ "pid":12345, "tid":4, "ts":1654550004366406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004366415, "dur":3106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/level6" }}
-,{ "pid":12345, "tid":4, "ts":1654550004369723, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/level5" }}
-,{ "pid":12345, "tid":4, "ts":1654550004369793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004369808, "dur":15976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/level5" }}
-,{ "pid":12345, "tid":4, "ts":1654550004385835, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/level1" }}
-,{ "pid":12345, "tid":4, "ts":1654550004385883, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004385887, "dur":2820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/level1" }}
-,{ "pid":12345, "tid":4, "ts":1654550004388758, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":4, "ts":1654550004388842, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004388858, "dur":20636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":4, "ts":1654550004409557, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":4, "ts":1654550004409721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654550004409730, "dur":13443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/MonicaTeste/ondeestaosansao_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":4, "ts":1654550004423219, "dur":1828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654550004431999, "dur":2098, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1654716346227827, "dur":1951, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654716346229791, "dur":987, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1654716346230817, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1654716346230841, "dur":209, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1654716346231074, "dur":722, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654716346231796, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654716346755716, "dur":102, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654716346755818, "dur":32, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654716346755850, "dur":12, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654716346755862, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654716346755882, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654716346755883, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654716346755894, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654716346755895, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654716346755904, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654716346755922, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654716346755942, "dur":8536, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1654716346231689, "dur":124, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346231813, "dur":4604, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346236421, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1654716346236599, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346239392, "dur":2239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1654716346241918, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1654716346242164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346242172, "dur":2269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1654716346245208, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1654716346245350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346245357, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1654716346247345, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1654716346247458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346247684, "dur":1481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1654716346249528, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1654716346249815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346249824, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1654716346252031, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346252427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346252500, "dur":44854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346297455, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346297526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346297535, "dur":5833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346303424, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346303490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346303496, "dur":3419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346306965, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346307019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346307048, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346309613, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346309673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346309679, "dur":2762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346312489, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346312563, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346312569, "dur":2976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346315597, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346315656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346315664, "dur":2594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346318312, "dur":4723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346323040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346323047, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346324790, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346324834, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346324839, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346326297, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346326344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346326351, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346328120, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346328172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346328180, "dur":2162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346330404, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346330491, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346330497, "dur":1807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346332359, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346332423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346332432, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346334099, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346334188, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346334196, "dur":2835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346337101, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346337140, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346337144, "dur":1529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346338722, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346338775, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346338781, "dur":7975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346346805, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346346857, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346346865, "dur":3260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346350202, "dur":31031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346381239, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346381249, "dur":1979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346383260, "dur":4930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346388195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346388205, "dur":1231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346389485, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346389529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346389536, "dur":6190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346395782, "dur":15074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346410867, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346410888, "dur":3661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346414597, "dur":2670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346417271, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346417280, "dur":2919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346420254, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346420342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346420350, "dur":3903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346424301, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346424378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346424384, "dur":5086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346429501, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346429577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346429583, "dur":6210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346435840, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346435915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346435939, "dur":2605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346438594, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346438690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346438701, "dur":15000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346453740, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346453804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346453809, "dur":13344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346467284, "dur":1829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346469118, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346469144, "dur":834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654716346470021, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets8.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1654716346470070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346470075, "dur":8897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets8.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1654716346479058, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":1, "ts":1654716346479108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346479113, "dur":1955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":1, "ts":1654716346481130, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1654716346481186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346481196, "dur":3938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1654716346485244, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1654716346485327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346485345, "dur":59646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1654716346545066, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1654716346545205, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346545219, "dur":193105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1654716346738361, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1654716346738393, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346738396, "dur":3767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1654716346742201, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1654716346742332, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654716346742337, "dur":2534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1654716346744934, "dur":10760, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346231646, "dur":156, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346231804, "dur":4607, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346236421, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1654716346236433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346237565, "dur":852, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1654716346238420, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1654716346238472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346238819, "dur":2717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1654716346241539, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1654716346241915, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346242092, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1654716346243909, "dur":1294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1654716346245207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346245215, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1654716346246913, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1654716346247332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346247674, "dur":1603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1654716346249541, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346249836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346250094, "dur":4113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346261964, "dur":787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao.exe" }}
+,{ "pid":12345, "tid":2, "ts":1654716346262756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346262762, "dur":15845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao.exe" }}
+,{ "pid":12345, "tid":2, "ts":1654716346278662, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346278751, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346279097, "dur":8276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346287490, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346287627, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346287718, "dur":12819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346300591, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346300682, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346300695, "dur":3189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346303933, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346303988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346303994, "dur":2843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346306890, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346306951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346306960, "dur":2218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346309249, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346309357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346309370, "dur":2971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346312397, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346312458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346312467, "dur":3089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346315608, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346315667, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346315672, "dur":2873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346318620, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346318704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346318712, "dur":1955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346320712, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346320758, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346320764, "dur":3016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346323828, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346323892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346323906, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346325488, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346325544, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346325550, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346327213, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346327258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346327263, "dur":1887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346329200, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346329251, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346329257, "dur":1589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346330881, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346330940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346330946, "dur":2871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346333869, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346333931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346333939, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346335834, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346335871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346335910, "dur":1481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346337443, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346337498, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346337504, "dur":2848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346340404, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346340456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346340467, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346342608, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346342655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346342661, "dur":4384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346347079, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346347115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346347120, "dur":2999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346350205, "dur":41708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346391920, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346391931, "dur":4262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346396246, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346396310, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346396325, "dur":10872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346407248, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346407345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346407351, "dur":7418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346414814, "dur":2797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346417614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346417620, "dur":2788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346420450, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346420526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346420532, "dur":12346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346432913, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346432995, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346433001, "dur":2590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346435624, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346435721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346435731, "dur":2785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346438552, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346438656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346438665, "dur":14945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346453659, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346453738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346453744, "dur":3197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346456973, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346457064, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346457068, "dur":12571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654716346469676, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1654716346469711, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346469764, "dur":5950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1654716346475830, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":2, "ts":1654716346475928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346475943, "dur":2758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":2, "ts":1654716346478753, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1654716346478809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346478817, "dur":14790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1654716346493666, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":2, "ts":1654716346493710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346493719, "dur":5638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":2, "ts":1654716346499412, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1654716346499560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346499568, "dur":76187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1654716346575796, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1654716346575865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346575876, "dur":12726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1654716346588635, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1654716346588682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346588688, "dur":33315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1654716346622104, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1654716346622190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346622202, "dur":88015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1654716346710251, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1654716346710281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346710287, "dur":24992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1654716346735335, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/level4" }}
+,{ "pid":12345, "tid":2, "ts":1654716346735384, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346735390, "dur":3873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/level4" }}
+,{ "pid":12345, "tid":2, "ts":1654716346739299, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1654716346739331, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346739336, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1654716346741524, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1654716346741640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654716346741648, "dur":3312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1654716346745171, "dur":10523, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346231682, "dur":125, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346231807, "dur":4625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346236434, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1654716346236762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346239405, "dur":2190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1654716346241921, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1654716346242169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346242675, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1654716346244054, "dur":1162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1654716346245219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346245227, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1654716346246856, "dur":521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1654716346247380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346247661, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1654716346249494, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1654716346249822, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346249909, "dur":2443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1654716346252411, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1654716346252531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346252536, "dur":25179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1654716346277765, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1654716346277919, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346278414, "dur":18972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1654716346298315, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346298424, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346298437, "dur":4937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346303426, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346303486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346303495, "dur":3471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346307014, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346307062, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346307068, "dur":2206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346309361, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346309438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346309444, "dur":3023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346312522, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346312586, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346312591, "dur":2960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346315602, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346315655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346315664, "dur":2546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346318248, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346318302, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346318313, "dur":5462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346323830, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346323914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346323955, "dur":2152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346326156, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346326207, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346326214, "dur":1905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346328183, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346328248, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346328254, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346330417, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346330486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346330494, "dur":1815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346332359, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346332427, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346332432, "dur":1859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346334324, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346334356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346334361, "dur":2249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346336662, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346336728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346336736, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346338263, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346338306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346338312, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346339428, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346339466, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346339471, "dur":2193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346341717, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346341776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346341786, "dur":5292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346347127, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346347173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346347179, "dur":2278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346349508, "dur":2241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346351754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346351763, "dur":1205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346353027, "dur":12294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346365327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346365335, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346366315, "dur":41385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346407704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346407712, "dur":6261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346414086, "dur":2473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346416564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346416571, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346417516, "dur":3458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346420977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346420982, "dur":5730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346426744, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346426822, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346426846, "dur":6237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346433127, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346433205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346433211, "dur":3941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346437185, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346437253, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346437258, "dur":4759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346442049, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346442124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346442130, "dur":25267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346467445, "dur":2562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346470011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346476463, "dur":2389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654716346478900, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1654716346478967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346478972, "dur":44645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1654716346523654, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1654716346523685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346523698, "dur":4098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1654716346527849, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1654716346527891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346527896, "dur":17726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1654716346545664, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1654716346545792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346545803, "dur":186010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1654716346731862, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/level7" }}
+,{ "pid":12345, "tid":3, "ts":1654716346731944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346731953, "dur":3322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/level7" }}
+,{ "pid":12345, "tid":3, "ts":1654716346735339, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1654716346735385, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346735390, "dur":2825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1654716346738260, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1654716346738294, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346738299, "dur":2144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1654716346740474, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1654716346740512, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654716346740518, "dur":4238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1654716346744822, "dur":10892, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346231714, "dur":104, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346231818, "dur":4609, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346236431, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1654716346236614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346239635, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1654716346241703, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1654716346241927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346242079, "dur":1813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1654716346243948, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1654716346244074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346244140, "dur":2292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1654716346246778, "dur":528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1654716346247310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346247867, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1654716346249534, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1654716346249816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346249825, "dur":2196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1654716346252075, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346252215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346252223, "dur":67428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346319709, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346319960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346319975, "dur":2035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346322060, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346322116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346322124, "dur":3127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346325301, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346325355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346325360, "dur":1849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346327250, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346327283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346327288, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346329159, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346329217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346329224, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346330911, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346330991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346330996, "dur":1819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346332861, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346332898, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346332903, "dur":2161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346335100, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346335138, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346335143, "dur":1667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346336863, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346336919, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346336925, "dur":1574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346338547, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346338589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346338612, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346340545, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346340578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346340583, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346342588, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346342640, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346342647, "dur":6797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346349497, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346349558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346349567, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346351888, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346351975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346351983, "dur":2056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346354084, "dur":36856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346390944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346390951, "dur":4884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346395882, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346395934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346395943, "dur":11030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346407025, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346407098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346407107, "dur":7100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346414255, "dur":3100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346417359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346417366, "dur":2837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346420240, "dur":2614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346422858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346422863, "dur":3842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346426739, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346426817, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346426823, "dur":6102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346432975, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346433062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346433069, "dur":3599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346436716, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346436816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346436824, "dur":1752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346439943, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346440086, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346440097, "dur":14834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346454970, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346455036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346455042, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346456964, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346457043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346457049, "dur":21675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654716346478775, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":4, "ts":1654716346478827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346478832, "dur":2232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":4, "ts":1654716346481122, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1654716346481336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346481342, "dur":46147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1654716346527569, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1654716346527798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346527814, "dur":105554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1654716346633454, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1654716346633511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346633522, "dur":7302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1654716346640859, "dur":8634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1654716346649507, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346649528, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1654716346650739, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1654716346650868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346650877, "dur":3601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1654716346654513, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1654716346654543, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346654548, "dur":74275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1654716346728912, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/level8" }}
+,{ "pid":12345, "tid":4, "ts":1654716346728976, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346728984, "dur":2868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/level8" }}
+,{ "pid":12345, "tid":4, "ts":1654716346731936, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1654716346732014, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346732027, "dur":2957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1654716346735229, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1654716346735285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346735294, "dur":4021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1654716346739381, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1654716346739441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654716346739464, "dur":16164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Edusesc tgn/Downloads/OndeEstaOSansao/OndeEstaOSansao_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1654716346755679, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1654716346755681, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654716346767846, "dur":2555, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
