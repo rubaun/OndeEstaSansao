@@ -6,6 +6,7 @@ public class PlayAchou : MonoBehaviour
 {
 
     private AudioSource playSomAchou;
+    public AudioClip somAchou;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,7 @@ public class PlayAchou : MonoBehaviour
 
     public void PlaySomAchou()
     {
-        playSomAchou.Play();
+        playSomAchou.PlayOneShot(somAchou);
     }
+
 }

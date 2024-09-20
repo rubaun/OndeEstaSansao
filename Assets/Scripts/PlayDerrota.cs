@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class PlayDerrota : MonoBehaviour
 {
-    
+
     private AudioSource playSomDerrota;
+    public AudioClip somTempo;
 
     // Start is called before the first frame update
     void Start()
@@ -19,8 +20,8 @@ public class PlayDerrota : MonoBehaviour
         
     }
 
-    public void PlaySomDerrota()
+    public void PlaySomTempo()
     {
-        playSomDerrota.Play();
+        playSomDerrota.PlayOneShot(somTempo);
     }
 }

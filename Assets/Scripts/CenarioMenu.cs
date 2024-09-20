@@ -18,11 +18,7 @@ public class CenarioMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
-        {
-            SceneManager.LoadScene("Cenario1");
-        }
-
+        
         if(Input.GetKeyDown(KeyCode.Escape)){
             Application.Quit();
         }
@@ -30,5 +26,10 @@ public class CenarioMenu : MonoBehaviour
         if(pontosParaDeletar != null){
             DestroyImmediate(pontosParaDeletar.gameObject);
         }
+    }
+
+    public void Play()
+    {
+        SceneManager.LoadScene("Cenario1");
     }
 }

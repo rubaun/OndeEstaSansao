@@ -16,13 +16,14 @@ public class Timer : MonoBehaviour
     }
     void Start() 
     {
+        timeText = GameObject.Find("TextTime").GetComponent<Text>();
         StartTime();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(timeIsRunning)
+        if(timeIsRunning && timeText != null)
         {
             if(timeRemaining > 0)
             {

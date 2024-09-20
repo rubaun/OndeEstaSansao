@@ -1,0 +1,301 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Audio::Start()
+extern void Audio_Start_m97991E7F58963E4478EDB93862B7D3B86CC37893 (void);
+// 0x00000002 System.Void Audio::Update()
+extern void Audio_Update_m984ECC185C811C50694A9E3315454C5F3BB5678F (void);
+// 0x00000003 System.Void Audio::.ctor()
+extern void Audio__ctor_m77A1146A37D12C6FE8759416FFCC7B3C4DE470EB (void);
+// 0x00000004 System.Void CenarioMenu::Start()
+extern void CenarioMenu_Start_m31A55DA7D4B4CAA3BDBC61E3628CA9E6A4B2CD35 (void);
+// 0x00000005 System.Void CenarioMenu::Update()
+extern void CenarioMenu_Update_m8475F5EA248BABF1F3E6E2AD8DD82946CEA3F7EC (void);
+// 0x00000006 System.Void CenarioMenu::Play()
+extern void CenarioMenu_Play_mD3FF1D57D405C2EC02E8DA66628EBF678E811A39 (void);
+// 0x00000007 System.Void CenarioMenu::.ctor()
+extern void CenarioMenu__ctor_m452692D02A931C782453D1CD6FB5A22C9B06806C (void);
+// 0x00000008 System.Void Director::Awake()
+extern void Director_Awake_mAECF1324612E32DD61851485D530B5993BFBD9F0 (void);
+// 0x00000009 System.Void Director::Start()
+extern void Director_Start_mF4F7F09D2B591AC415E6586E347D51E635A389A2 (void);
+// 0x0000000A System.Void Director::Update()
+extern void Director_Update_mD2523A58D1D5FB0B8335425FE991AD4641B31925 (void);
+// 0x0000000B System.Void Director::BotaoProximaFase()
+extern void Director_BotaoProximaFase_m633DAB2D9420AD7FC78CFFD1956888CC151BEB00 (void);
+// 0x0000000C System.Void Director::BotaoPerdeuJogo()
+extern void Director_BotaoPerdeuJogo_mF6D8B510D55DD333F7D8310D4A7437B8DD786408 (void);
+// 0x0000000D System.Void Director::SiteHistoria()
+extern void Director_SiteHistoria_m420ECE9D0A3929188196F2427936D2725E2234F9 (void);
+// 0x0000000E System.Void Director::JogarNovamente()
+extern void Director_JogarNovamente_m8723E207550E0EAB69326FE16B6FE41DBA6E484B (void);
+// 0x0000000F System.Void Director::ReiniciaJogo()
+extern void Director_ReiniciaJogo_m01A62729FB3E0BB8104CD103D1462C9D6A4EE9EE (void);
+// 0x00000010 System.Void Director::VerificaCliqueAchou()
+extern void Director_VerificaCliqueAchou_mDC85247E22465FF9FE0D0BB846A48E0F60033FF6 (void);
+// 0x00000011 System.Void Director::VerificaProximaFase()
+extern void Director_VerificaProximaFase_mD36B816126E4ACACD4152D1907D39A620D393FF2 (void);
+// 0x00000012 System.Void Director::VerificaTempo()
+extern void Director_VerificaTempo_m360A3AA8CC4471C9212F1E2CF40DAD30D4349893 (void);
+// 0x00000013 System.Void Director::.ctor()
+extern void Director__ctor_m90572E7362C15ADFDCDA90168D59213246DD981D (void);
+// 0x00000014 System.Void PlayAchou::Start()
+extern void PlayAchou_Start_m282195F9DA50EBA99D489B13828D16353B6BD6D2 (void);
+// 0x00000015 System.Void PlayAchou::Update()
+extern void PlayAchou_Update_m52574CB08C4ED410F0535AA21834F3C7621667B5 (void);
+// 0x00000016 System.Void PlayAchou::PlaySomAchou()
+extern void PlayAchou_PlaySomAchou_m50DD05EF4E0DBEE7A37A3D35311848E98CBABCC0 (void);
+// 0x00000017 System.Void PlayAchou::.ctor()
+extern void PlayAchou__ctor_mEC75FA66DBE3F0F1BE9AE4EDD4326D0A722A5C02 (void);
+// 0x00000018 System.Void PlayDerrota::Start()
+extern void PlayDerrota_Start_m8199A399941FCAC677B6263C377977E71CF2A1E1 (void);
+// 0x00000019 System.Void PlayDerrota::Update()
+extern void PlayDerrota_Update_m893915D80C995B01B5834C83DFDBB600C3F4BC58 (void);
+// 0x0000001A System.Void PlayDerrota::PlaySomTempo()
+extern void PlayDerrota_PlaySomTempo_m8CAFEA27D67BB6054BCFE62F2F660BE21A5824AA (void);
+// 0x0000001B System.Void PlayDerrota::.ctor()
+extern void PlayDerrota__ctor_m8056C680120CBDE567BFBA648CB254838CF5E7EE (void);
+// 0x0000001C System.Void Pontos::Awake()
+extern void Pontos_Awake_m40637E98C8BA5BB38B4A9937244BCB48BCA55438 (void);
+// 0x0000001D System.Void Pontos::Start()
+extern void Pontos_Start_m596CB04962F58A2A264D0E8EDD55690320BBF62D (void);
+// 0x0000001E System.Void Pontos::Update()
+extern void Pontos_Update_m5E81FF5CBC15FCA774DA3FD745E5C4DED0F623EB (void);
+// 0x0000001F System.Void Pontos::SomaPontos()
+extern void Pontos_SomaPontos_m09EFD2F61DDA241E86C3A156BECB06CD5B739A73 (void);
+// 0x00000020 System.Void Pontos::CalculaPontos(System.Single)
+extern void Pontos_CalculaPontos_m874E55B5D7C31E315C0B7D3E1018AFA477D015FB (void);
+// 0x00000021 System.Void Pontos::EncerraContagem()
+extern void Pontos_EncerraContagem_m8E0C0F15A519CADACFD41C1C1C60F3CB7C0BF54F (void);
+// 0x00000022 System.Void Pontos::Destruir()
+extern void Pontos_Destruir_m30E3C5BB2945AB0BFD7DE2410C302F779B5A2627 (void);
+// 0x00000023 System.Single Pontos::TotalPontos()
+extern void Pontos_TotalPontos_m6DC255ABDAED3D45FEF20A9FE4C46D2E384F6A9A (void);
+// 0x00000024 System.Void Pontos::.ctor()
+extern void Pontos__ctor_mF8C7B2466C6AC282F90DCAADA8369D38BF07AF3B (void);
+// 0x00000025 System.Void Pontuacao::Start()
+extern void Pontuacao_Start_mE6AD5E912442C79129B8DEAD5DF4531618483302 (void);
+// 0x00000026 System.Void Pontuacao::Update()
+extern void Pontuacao_Update_m3E41D6411A2B8A5864E731DF123C07F8DE36ACAF (void);
+// 0x00000027 System.Void Pontuacao::DefineTempoInicial(System.Single)
+extern void Pontuacao_DefineTempoInicial_m7A2FA00C99E3B83F8939AF41C7958E96DDA3FD87 (void);
+// 0x00000028 System.Void Pontuacao::DefineTempoRestante(System.Single)
+extern void Pontuacao_DefineTempoRestante_mA03624BF801E4FB220F30DE351DC563C9F2C2D87 (void);
+// 0x00000029 System.Void Pontuacao::DefineTempoCorrendo(System.Boolean)
+extern void Pontuacao_DefineTempoCorrendo_m99DEC102B17AC8EEC2EDC8C980E9A9C42AC6C7D5 (void);
+// 0x0000002A System.Void Pontuacao::PontuacaoDaFase(System.Single)
+extern void Pontuacao_PontuacaoDaFase_m386B9876F02A5E528C284D80912AF9428D8573AC (void);
+// 0x0000002B System.Void Pontuacao::ZeraPontos()
+extern void Pontuacao_ZeraPontos_m7C1A80173E61B45F088BADA532FC419D7EC0C7E6 (void);
+// 0x0000002C System.Void Pontuacao::SetContagem(System.Boolean)
+extern void Pontuacao_SetContagem_m1F6F68C07DD57FF1820295853A67E3BEBC621C69 (void);
+// 0x0000002D System.Void Pontuacao::.ctor()
+extern void Pontuacao__ctor_mCF92691DF0C49E5A4E77A7A29527BBD83A4D53A4 (void);
+// 0x0000002E System.Void Sansao::Start()
+extern void Sansao_Start_m26931383D7340243A6D6BF2EF9FC684EFD5343F8 (void);
+// 0x0000002F System.Void Sansao::Update()
+extern void Sansao_Update_mF8E22E74661C54362290656929C267E400F781DF (void);
+// 0x00000030 System.Void Sansao::SetClick()
+extern void Sansao_SetClick_m67594C4C4698C9DEC7E8575CEBF246DCBF9420F0 (void);
+// 0x00000031 System.Void Sansao::ResetClick()
+extern void Sansao_ResetClick_mCDFBDA9EC46AAD8872F7226B7CDA2B312E98A2D7 (void);
+// 0x00000032 System.Void Sansao::.ctor()
+extern void Sansao__ctor_mAF2132D341BBF8C25AA79471DDD4A6D440314706 (void);
+// 0x00000033 System.Void Tela_inicial::MostraTelaInicial()
+extern void Tela_inicial_MostraTelaInicial_mFB2165C51F9F0ABB500D675B433CF69C06B57B60 (void);
+// 0x00000034 System.Void Tela_inicial::EscondeTelaInicial()
+extern void Tela_inicial_EscondeTelaInicial_m737C8250DB33E2ED3CC2D0607F09879CBEAFE10F (void);
+// 0x00000035 System.Void Tela_inicial::IniciaJogo()
+extern void Tela_inicial_IniciaJogo_m772407AF3060DB02BCE34BE70EBF8D0A42E0469E (void);
+// 0x00000036 System.Void Tela_inicial::.ctor()
+extern void Tela_inicial__ctor_m7EEEC85619C2024DD1CC8937D270BABC40E7DCA6 (void);
+// 0x00000037 System.Void Timer::Awake()
+extern void Timer_Awake_m901C53D4A6AFCFA858D4D4785EF9A05F0FFDCA55 (void);
+// 0x00000038 System.Void Timer::Start()
+extern void Timer_Start_m6820D211A06B2E5E24795D7EBE67EE865F39BC43 (void);
+// 0x00000039 System.Void Timer::Update()
+extern void Timer_Update_m3AC30EFD54E8E1010F6E601AE179212E71E6B2CD (void);
+// 0x0000003A System.Void Timer::DisplayTime(System.Single)
+extern void Timer_DisplayTime_m0C2F09C5C83D3690074D77FAE3AE0A8DDBB647E9 (void);
+// 0x0000003B System.Void Timer::StopTime()
+extern void Timer_StopTime_mAF1F5502E65FC2F36B339AB6DCABFD08FCC53F0D (void);
+// 0x0000003C System.Void Timer::RestartTime()
+extern void Timer_RestartTime_m1E1CD0BD0D726809CF649242249006317C837827 (void);
+// 0x0000003D System.Void Timer::StartTime()
+extern void Timer_StartTime_m1075EE47EF419E6586D428556C7E7F391B04FFB0 (void);
+// 0x0000003E System.Void Timer::.ctor()
+extern void Timer__ctor_m5FF13F1DAD0527F97E229A1904A8AD662731C4B5 (void);
+// 0x0000003F System.Void VerificaClique::Start()
+extern void VerificaClique_Start_m50FBD4D7D61EBFCAADE69982CCFEC0E0BED995F6 (void);
+// 0x00000040 System.Void VerificaClique::Update()
+extern void VerificaClique_Update_m6C397DACDEA660DBFADAFEEAE4A3B0C8728B2265 (void);
+// 0x00000041 System.Void VerificaClique::.ctor()
+extern void VerificaClique__ctor_m057B5176AB2D2BC3FD19D73BA79826F8A164AEE5 (void);
+static Il2CppMethodPointer s_methodPointers[65] = 
+{
+	Audio_Start_m97991E7F58963E4478EDB93862B7D3B86CC37893,
+	Audio_Update_m984ECC185C811C50694A9E3315454C5F3BB5678F,
+	Audio__ctor_m77A1146A37D12C6FE8759416FFCC7B3C4DE470EB,
+	CenarioMenu_Start_m31A55DA7D4B4CAA3BDBC61E3628CA9E6A4B2CD35,
+	CenarioMenu_Update_m8475F5EA248BABF1F3E6E2AD8DD82946CEA3F7EC,
+	CenarioMenu_Play_mD3FF1D57D405C2EC02E8DA66628EBF678E811A39,
+	CenarioMenu__ctor_m452692D02A931C782453D1CD6FB5A22C9B06806C,
+	Director_Awake_mAECF1324612E32DD61851485D530B5993BFBD9F0,
+	Director_Start_mF4F7F09D2B591AC415E6586E347D51E635A389A2,
+	Director_Update_mD2523A58D1D5FB0B8335425FE991AD4641B31925,
+	Director_BotaoProximaFase_m633DAB2D9420AD7FC78CFFD1956888CC151BEB00,
+	Director_BotaoPerdeuJogo_mF6D8B510D55DD333F7D8310D4A7437B8DD786408,
+	Director_SiteHistoria_m420ECE9D0A3929188196F2427936D2725E2234F9,
+	Director_JogarNovamente_m8723E207550E0EAB69326FE16B6FE41DBA6E484B,
+	Director_ReiniciaJogo_m01A62729FB3E0BB8104CD103D1462C9D6A4EE9EE,
+	Director_VerificaCliqueAchou_mDC85247E22465FF9FE0D0BB846A48E0F60033FF6,
+	Director_VerificaProximaFase_mD36B816126E4ACACD4152D1907D39A620D393FF2,
+	Director_VerificaTempo_m360A3AA8CC4471C9212F1E2CF40DAD30D4349893,
+	Director__ctor_m90572E7362C15ADFDCDA90168D59213246DD981D,
+	PlayAchou_Start_m282195F9DA50EBA99D489B13828D16353B6BD6D2,
+	PlayAchou_Update_m52574CB08C4ED410F0535AA21834F3C7621667B5,
+	PlayAchou_PlaySomAchou_m50DD05EF4E0DBEE7A37A3D35311848E98CBABCC0,
+	PlayAchou__ctor_mEC75FA66DBE3F0F1BE9AE4EDD4326D0A722A5C02,
+	PlayDerrota_Start_m8199A399941FCAC677B6263C377977E71CF2A1E1,
+	PlayDerrota_Update_m893915D80C995B01B5834C83DFDBB600C3F4BC58,
+	PlayDerrota_PlaySomTempo_m8CAFEA27D67BB6054BCFE62F2F660BE21A5824AA,
+	PlayDerrota__ctor_m8056C680120CBDE567BFBA648CB254838CF5E7EE,
+	Pontos_Awake_m40637E98C8BA5BB38B4A9937244BCB48BCA55438,
+	Pontos_Start_m596CB04962F58A2A264D0E8EDD55690320BBF62D,
+	Pontos_Update_m5E81FF5CBC15FCA774DA3FD745E5C4DED0F623EB,
+	Pontos_SomaPontos_m09EFD2F61DDA241E86C3A156BECB06CD5B739A73,
+	Pontos_CalculaPontos_m874E55B5D7C31E315C0B7D3E1018AFA477D015FB,
+	Pontos_EncerraContagem_m8E0C0F15A519CADACFD41C1C1C60F3CB7C0BF54F,
+	Pontos_Destruir_m30E3C5BB2945AB0BFD7DE2410C302F779B5A2627,
+	Pontos_TotalPontos_m6DC255ABDAED3D45FEF20A9FE4C46D2E384F6A9A,
+	Pontos__ctor_mF8C7B2466C6AC282F90DCAADA8369D38BF07AF3B,
+	Pontuacao_Start_mE6AD5E912442C79129B8DEAD5DF4531618483302,
+	Pontuacao_Update_m3E41D6411A2B8A5864E731DF123C07F8DE36ACAF,
+	Pontuacao_DefineTempoInicial_m7A2FA00C99E3B83F8939AF41C7958E96DDA3FD87,
+	Pontuacao_DefineTempoRestante_mA03624BF801E4FB220F30DE351DC563C9F2C2D87,
+	Pontuacao_DefineTempoCorrendo_m99DEC102B17AC8EEC2EDC8C980E9A9C42AC6C7D5,
+	Pontuacao_PontuacaoDaFase_m386B9876F02A5E528C284D80912AF9428D8573AC,
+	Pontuacao_ZeraPontos_m7C1A80173E61B45F088BADA532FC419D7EC0C7E6,
+	Pontuacao_SetContagem_m1F6F68C07DD57FF1820295853A67E3BEBC621C69,
+	Pontuacao__ctor_mCF92691DF0C49E5A4E77A7A29527BBD83A4D53A4,
+	Sansao_Start_m26931383D7340243A6D6BF2EF9FC684EFD5343F8,
+	Sansao_Update_mF8E22E74661C54362290656929C267E400F781DF,
+	Sansao_SetClick_m67594C4C4698C9DEC7E8575CEBF246DCBF9420F0,
+	Sansao_ResetClick_mCDFBDA9EC46AAD8872F7226B7CDA2B312E98A2D7,
+	Sansao__ctor_mAF2132D341BBF8C25AA79471DDD4A6D440314706,
+	Tela_inicial_MostraTelaInicial_mFB2165C51F9F0ABB500D675B433CF69C06B57B60,
+	Tela_inicial_EscondeTelaInicial_m737C8250DB33E2ED3CC2D0607F09879CBEAFE10F,
+	Tela_inicial_IniciaJogo_m772407AF3060DB02BCE34BE70EBF8D0A42E0469E,
+	Tela_inicial__ctor_m7EEEC85619C2024DD1CC8937D270BABC40E7DCA6,
+	Timer_Awake_m901C53D4A6AFCFA858D4D4785EF9A05F0FFDCA55,
+	Timer_Start_m6820D211A06B2E5E24795D7EBE67EE865F39BC43,
+	Timer_Update_m3AC30EFD54E8E1010F6E601AE179212E71E6B2CD,
+	Timer_DisplayTime_m0C2F09C5C83D3690074D77FAE3AE0A8DDBB647E9,
+	Timer_StopTime_mAF1F5502E65FC2F36B339AB6DCABFD08FCC53F0D,
+	Timer_RestartTime_m1E1CD0BD0D726809CF649242249006317C837827,
+	Timer_StartTime_m1075EE47EF419E6586D428556C7E7F391B04FFB0,
+	Timer__ctor_m5FF13F1DAD0527F97E229A1904A8AD662731C4B5,
+	VerificaClique_Start_m50FBD4D7D61EBFCAADE69982CCFEC0E0BED995F6,
+	VerificaClique_Update_m6C397DACDEA660DBFADAFEEAE4A3B0C8728B2265,
+	VerificaClique__ctor_m057B5176AB2D2BC3FD19D73BA79826F8A164AEE5,
+};
+static const int32_t s_InvokerIndices[65] = 
+{
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	2813,
+	3415,
+	3415,
+	3359,
+	3415,
+	3415,
+	3415,
+	2813,
+	2813,
+	2721,
+	2813,
+	3415,
+	2721,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	2813,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+	3415,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	65,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

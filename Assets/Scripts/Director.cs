@@ -8,8 +8,8 @@ public class Director : MonoBehaviour
 
     private Timer timerCenario;
     private Sansao sansao;
-    private AudioSource audioFundo;
-    private AudioSource tocaSomAchou;
+    public GameObject avisoAchou;
+    public GameObject avisoTempo;
     private AudioSource tocaSomDerrota;
     private Audio objetoAudio;
     private Pontuacao pontuacao;
@@ -17,14 +17,18 @@ public class Director : MonoBehaviour
     private bool verificaAchou;
     private bool acabouTempo;
     private string nomeCena;
-    public GameObject textoAchei;
-    public GameObject textoTempo;
+    
 
     private void Awake() {
        //DontDestroyOnLoad(this);
-        audioFundo = this.gameObject.GetComponent<AudioSource>();
-        //tocaSomAchou = textoAchei.gameObject.GetComponent<AudioSource>();
-        //tocaSomDerrota = textoTempo.gameObject.GetComponent<AudioSource>();
+        
+        avisoAchou = GameObject.Find("Aviso_achou");
+        avisoTempo = GameObject.Find("Aviso_tempo");
+        if (avisoAchou != null && avisoTempo != null)
+        {
+            avisoAchou.SetActive(false);
+            avisoTempo.SetActive(false);
+        }
     }
 
     // Start is called before the first frame update
@@ -35,8 +39,6 @@ public class Director : MonoBehaviour
         this.timerCenario = GameObject.FindObjectOfType<Timer>();
         this.sansao = GameObject.FindObjectOfType<Sansao>();
         nomeCena = SceneManager.GetActiveScene().name;
-        //objetoAudio = GameObject.FindObjectOfType<Audio>();
-        //audioFundo = GameObject.FindObjectOfType<Audio>().gameObject.GetComponent<AudioSource>();
         this.pontuacao = gameObject.GetComponent<Pontuacao>();
         pontuacao.DefineTempoInicial(timerCenario.timeInitial);
         
@@ -48,17 +50,16 @@ public class Director : MonoBehaviour
         if(Input.GetMouseButtonDown(0))
         {
             timerCenario.StartTime();
-            //Debug.Log("esconde");
         }
 
-        if(verificaAchou && Input.GetMouseButtonDown(0))
+        if (verificaAchou)
         {
-            VerificaProximaFase();
+            avisoAchou.GetComponent<PlayAchou>().PlaySomAchou();
         }
 
-        if(acabouTempo && Input.GetMouseButtonDown(0))
+        if (acabouTempo)
         {
-            ReiniciaJogo();
+            avisoTempo.GetComponent<PlayDerrota>().PlaySomTempo();
         }
 
         VerificaTempo();
@@ -72,10 +73,36 @@ public class Director : MonoBehaviour
         }
     }
 
+    public void BotaoProximaFase()
+    {
+        if (verificaAchou)
+        {
+            VerificaProximaFase();
+        }
+    }
+
+    public void BotaoPerdeuJogo()
+    {
+        if (acabouTempo)
+        {
+            ReiniciaJogo();
+        }
+    }
+
+    public void SiteHistoria()
+    {
+        Application.OpenURL("https://www.dentrodahistoria.com.br/");
+    }
+
+    public void JogarNovamente()
+    {
+       SceneManager.LoadScene("CenarioMenu");
+    }
+
     void ReiniciaJogo()
     {
         verificaAchou = false;
-        textoTempo.SetActive(false);
+        avisoTempo.SetActive(false);
         sansao.ResetClick();
         timerCenario.StopTime();
         timerCenario.RestartTime();
@@ -87,13 +114,11 @@ public class Director : MonoBehaviour
     {
         if(sansao.cliquei==true && timerCenario.timeRemaining > 0)
         {
-            textoAchei.SetActive(true);
+            avisoAchou.SetActive(true);
             timerCenario.StopTime();
             pontuacao.PontuacaoDaFase(timerCenario.timeRemaining);
             pontuacao.SetContagem(true);
             verificaAchou = true;
-            //audioFundo.PlayOneShot(tocaSomAchou.clip,0.1f);
-            //Debug.Log("Achou Sansão:"+verificaAchou);
         }
     }
 
@@ -137,7 +162,7 @@ public class Director : MonoBehaviour
     {
         if(timerCenario.timeRemaining == 0)
         {
-            textoTempo.SetActive(true);
+            avisoTempo.SetActive(true);
             acabouTempo = true;
             //if(objetoAudio != null)
             //{

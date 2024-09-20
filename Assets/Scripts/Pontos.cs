@@ -46,4 +46,9 @@ public class Pontos : MonoBehaviour
         DestroyImmediate(this.gameObject);
         Debug.Log("Destruido");
     }
+
+    public float TotalPontos()
+    {
+        return pontosAcumulados;
+    }
 }

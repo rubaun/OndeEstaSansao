@@ -11,15 +11,16 @@ public class Pontuacao : MonoBehaviour
     private bool tempoCorrendo;
     private bool contagemFeita;
     public Text textoPontos;
-    private Pontos pontos;
+    public Pontos pontos;
 
     
     // Start is called before the first frame update
     void Start()
     {
-        pontos = GameObject.FindObjectOfType<Pontos>();
         contagemFeita = false;
-        textoPontos.text = pontos.pontosAcumulados.ToString();
+        pontos = GameObject.FindObjectOfType<Pontos>();
+        textoPontos = GameObject.Find("TextPontos").GetComponent<Text>();
+        textoPontos.text = pontos.TotalPontos().ToString();
     }
 
     // Update is called once per frame

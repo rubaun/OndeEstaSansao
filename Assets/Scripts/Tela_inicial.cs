@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Tela_inicial : MonoBehaviour
 {
@@ -15,5 +16,10 @@ public class Tela_inicial : MonoBehaviour
     public void EscondeTelaInicial()
     {
         this.telaInicial.SetActive(false);
+    }
+
+    public void IniciaJogo()
+    {
+        SceneManager.LoadScene("Cenario1");
     }
 }
